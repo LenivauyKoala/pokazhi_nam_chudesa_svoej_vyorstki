@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GROWTASK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="./images/Style=Large.png" type="image/png" sizes="any"/>
+    <link rel="apple-touch-icon" href="./images/Style=Medium.png" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__container-logo"> <!-- Анимацию я тоже пока не умею делать-->
+        <img 
+          class="header__logo"
+          src="./images/logo_fullhd svg.svg"
+          alt="Логотип GROWTASK"
+        />
+      </div>  
+      <div class="header__unifying-container">
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#0">
+                <p>Текст и картинки</p>
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#0">
+                <p>Пример слайдера</p>
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#0">
+                <p>Кнопки и картинки</p>
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#0">
+                <p>Вопрос — ответ</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__button general-button">
+          <p class="header__button-text">К форме</p>
+        </button>
+      </div>
+      <div class="header__box">
+        <button class="header__box-button">
+          <img 
+            class=""
+            src="./images/Burger-header.svg"
+            alt="Меню"
+          />
+        </button>
+      </div>
+      <div class="header__box-menu">
+        <div class="header__box-menu-up">
+          <p class="header__box-menu-up-text">Меню</p>
+          <button class="header__box-menu-up-button header__button-work">
+            <img 
+            class=""
+            src="./images/Close-header.svg"
+            alt="Меню"
+          />
+          </button>
+        </div>
+        <div class="header__box-menu-down">
+          <nav class="header__box-menu-down-menu">
+            <ul class="header__box-menu-down-list">
+              <li class="header__box-menu-down-list-item">
+                <a>
+                  <p>Текст и картинки</p>
+                </a>
+              </li>
+              <li class="header__box-menu-down-list-item">
+                <a>
+                  <p>Пример слайдера</p>
+                </a>
+              </li>
+              <li class="header__box-menu-down-list-item">
+                <a>
+                  <p>Кнопки и картинки</p>
+                </a>
+              </li>
+              <li class="header__box-menu-down-list-item">
+                <a>
+                  <p>Вопрос—ответ</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__box-form">
+            <button class="header__box-form-button header__button-work">К форме</button>
+            <div class="header__box-form-social">
+              <a>
+                <img
+                  class="footer__box-general-link-icon"
+                  src="./images/vk.svg"
+                  alt="Значок сайта 'Вконтакте'"
+                />
+              </a>
+              <a>
+                <img
+                  class="footer__box-general-link-icon"
+                  src="./images/Tg.svg"
+                  alt="Значок сайта 'Телеграм'"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="content__firstscreen">
+        <div class="content__firstscreen-banner">
+          <h1 class="content__firstscreen-banner-title">
+            Покажи нам чудеса <span class="content__firstscreen-banner-title-accent">своей вёрстки</span>
+          </h1>
+          <p class="content__firstscreen-banner-text">
+            Это текстовое задание, которое нужно просто и грамотно сверстать. Мы уверены, что у тебя всё получится.
+          </p>
+          <div class="content__firstscreen-banner-box general-radius">
+            <p class="content__firstscreen-button-text">
+              Покажи скролл на <span class="content__firstscreen-button-text-accent">до формы:</span>
+            </p>
+            <a href="#jump-here"> <!-- Работет с задержкой из-за загрузки формы -->
+              <button class="content__firstscreen-banner-button general-button">К форме</button>
+            </a>
+          </div>
+        </div>
+        <div class="content__firstscreen-union">
+          <div class="content__image">
+            <img
+              class="content__image general-image general-radius"
+              src="./images/image-banner-laptop.png"
+              alt="Ноутбук на столе"
+            />
+            <img
+              class="content__image general-image general-radius"
+              src="./images/image-banner-abstraction.png"
+              alt="Абстрация двух цветов: зеленый и черный"
+            />
+          </div>
+          <div class="content__image-exception">
+            <img
+              class="content__image general-image general-radius"
+              src="./images/image-banner-hands.png"
+              alt="Руки тянутся вверх к свету"
+            />
+          </div>
+        </div>  
+      </section>
+      <section class="content__numbers general-background">
+        <div class="numbers__box">
+          <div class="numbers__box-text">
+            <h2 class="numbers__box-title">Про вакансию</h2>
+            <p class="numbers__box-regular">
+              Мы ищем аккуратного верстальщика, который хочет учиться и развиваться. С этим мы, конечно же, поможем.
+              <br>
+              <br>
+              Напомним про условия:
+            </p>
+          </div>
+          <div class="numbers__box-conditions">
+            <div class="numbers__box-conditions-container general-radius">
+              <p class="numbers__box-conditions-num">20 000</p>
+              <p class="numbers__box-conditions-text">Твой оклад на время стажировки (Возможны премии)</p>
+            </div>
+            <div class="numbers__box-conditions-container general-radius">
+              <p class="numbers__box-conditions-num">5/2</p>
+              <p class="numbers__box-conditions-text">Рабочий график</p>
+            </div>
+            <div class="numbers__box-conditions-container general-radius">
+              <p class="numbers__box-conditions-num">8 ч</p>
+              <p class="numbers__box-conditions-text">Рабочий день</p>
+            </div>
+          </div>
+        </div>
+        <div class="numbers__image">
+          <img
+            class="numbers__image-bw general-image-bw general-radius" 
+            src="./images/image-one.png"
+            alt="Ч\б фотография. Четырех сотрудников"
+            loading="lazy"
+          /> <!-- bw (black-white) черно-белая фотография -->
+          <img
+            class="content__image-bw general-image-bw general-radius"
+            src="./images/image-two.png"
+            alt="Ч\б фотография. Двух сотрудников смотрящих в экран монитора компьютера"
+            loading="lazy"
+          />
+          <img
+            class="content__image-bw general-image-bw general-radius"
+            src="./images/image-three.png"
+            alt="Ч\б фотография. Двух сотрудников"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <section class="content__slider">
+        <p style="color: red; font-size: 24px;">Тут я не смог реализовать слайдерар</p>
+        <p style="color: red; font-size: 24px;">И слайдер выше тоже не смог</p>
+      </section>
+      <section class="content__presentation general-background">
+        <div class="presentation__box-image">
+          <img 
+            class="presentation__box-image-one general-radius general-big-image-forest"
+            src="./images/forest/image-forest-one.png"
+            alt="Лес"
+          />
+          <img 
+            class="presentation__box-image-two general-radius general-big-image-forest"
+            src="./images/forest/image-forest-two.png"
+            alt="Лес"
+          />
+          <img 
+            class="presentation__box-image-three general-radius general-big-image-forest"
+            src="./images/forest/image-forest-three.png"
+            alt="Лес"
+          />
+        </div>
+        <form class="presentation__box-button">
+          <label> 
+            <input class="visually-hidden forest-one" type="radio" name="forest" checked/>
+            <div class="presentation__box-button-forest">
+              <img 
+                class="general-image-forest"
+                src="./images/forest/image-forest-one.png"
+                alt="Лес"
+              />
+              <p>Картинка 1</p>
+            </div>
+          </label>
+          <label> 
+            <input class="visually-hidden forest-two" type="radio" name="forest" />
+            <div class="presentation__box-button-forest">
+              <img 
+                class="general-image-forest"
+                src="./images/forest/image-forest-two.png"
+                alt="Лес"
+                loading="lazy"
+              />
+              <p>Картинка 2</p>
+            </div>
+          </label>
+          <label> 
+            <input class="visually-hidden forest-three" type="radio" name="forest" />
+            <div class="presentation__box-button-forest">
+              <img 
+                class="general-image-forest"
+                src="./images/forest/image-forest-three.png"
+                alt="Лес"
+                loading="lazy"
+              />
+              <p>Картинка 3</p>
+            </div>
+          </label>
+        </form>
+      </section>
+      <section class="content__info">
+        <div class="info__title">
+          <h2 class="info__title-text">Ответы на вопросы</h2>
+        </div>
+        <form class="info__form">
+          <label class="info__box general-radius">
+            <input class="visually-hidden question-one" type="checkbox" name="one"/>
+            <div class="info__box-question-one">
+              <p class="info__text">У вас много проектов?</p>
+              <p class="info__text-none none-one">Достаточно, чтобы работать и получать удовольствие от работы)</p>
+            </div>
+            <div class="info__box-button-one info__box-button-size"></div>
+          </label>
+          <label class="info__box general-radius">
+            <input class="visually-hidden question-two" type="checkbox" name="two"/>
+            <div class="info__box-question-two">
+              <p class="info__text">Есть ли карьерный рост?</p>
+              <p class="info__text-none none-two">Карьерный рост есть, но он зависит только от тебя. Никто специально тянуть не будет.</p>
+            </div>
+            <div class="info__box-button-two info__box-button-size"></div>
+          </label>
+          <label class="info__box general-radius">
+            <input class="visually-hidden question-three" type="checkbox" name="three"/>
+            <div class="info__box-question-three">
+              <p class="info__text">У вас большой штат?</p>
+              <p class="info__text-none none-three">Штат небольшой</p>
+            </div>
+            <div class="info__box-button-three info__box-button-size"></div>
+          </label>
+          <label class="info__box general-radius">
+            <input class="visually-hidden question-four" type="checkbox" name="four"/>
+            <div class="info__box-question-four">
+              <p class="info__text">Какие цели у вашей студии?</p>
+              <p class="info__text-none none-four">Развивать свои продукты в среднем ценовом сегменте. Занять не занятую нишу отличных сайтов по адекватной цене.</p>
+            </div>
+            <div class="info__box-button-four info__box-button-size"></div>
+          </label>
+        </form>
+      </section>
+    </main>
+    <footer class="footer" id="jump-here">
+      <div class="footer__box">
+        <div class="footer__box-general">
+          <div class="footer__box-general-up">
+            <p class="footer__box-general-gogh">Форма ОС</p>
+            <p class="footer__box-general-Raleway">Сверстай форму обратной связи. Будет круто, если заявку будут приходить сюда: a@growtask.ru</p>
+          </div>
+          <div class="footer__box-general-down">   
+            <p class="footer__box-general-gogh footer__gogh-small">Не забудь вставить соц.сети</p>
+            <ul class="footer__box-general-down-social">
+              <li class="footer__box-link">
+                <a class="footer__box-general-link" href="#0">
+                  <img
+                    class="footer__box-general-link-icon"
+                    src="./images/vk.svg"
+                    alt="Значок сайта 'Вконтакте'"/>
+                </a>
+              </li> 
+              <li class="footer__box-link"> 
+                <a class="footer__box-general-link" href="#0">
+                  <img
+                    class="footer__box-general-link-icon"
+                    src="./images/Tg.svg"
+                    alt="Значок сайта 'Телеграм'"
+                    />
+                </a>
+              </li>
+            </ul>    
+          </div>
+        </div>
+        <form class="footer__form general-radius">
+          <div class="footer__form-box-union">
+            <div class="footer__form-box">
+              <label class="footer__form-box-style">
+                <input 
+                  class="footer__form-stylization footer__form-question"
+                  type="text"
+                  maxlength="200"
+                  placeholder="Напиши вопрос*"/>
+              </label>
+              <label class="footer__form-box-style">
+                <input
+                  class="footer__form-stylization footer__form-contacts"
+                  type="text"
+                  maxlength="50"
+                  placeholder="Телефон или почта*"/>
+              </label>
+            </div>
+            <div class="footer__form-box">
+              <label class="footer__form-box-style">
+                <input  
+                  class="footer__form-stylization footer__form-name"
+                  type="text"
+                  maxlength="50"
+                  placeholder="Твоё имя*"/>
+              </label>
+              <label class="footer__form-box-style">
+                <input
+                  class="footer__form-stylization footer__form-network"
+                  type="text"
+                  maxlength="50"
+                  placeholder="Соц.сеть или мессенджер"/>
+              </label>
+            </div>
+          </div>  
+          <div class="footer__form-box footer__form-box-exception">
+            <button class="footer__form-box-button general-button">Отправить заявку</button>
+            <div class="footer__form-box-accent">
+              <label class="footer__form-box-agreement">
+                <input class="visually-hidden footer__daw" type="checkbox"/>
+                <span class="footer__form-box-agreement-daw">
+                </span>
+              </label>
+              <p>Согласие с политикой</p>
+            </div>  
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

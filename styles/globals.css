@@ -1,0 +1,38 @@
+
+/* Глобальные стили для проекта */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  all: unset; /* Все стили элемента сбрасываются в ноль. */
+}
+
+body {
+  min-inline-size: 374px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
